@@ -57,4 +57,4 @@ def predict_water(f: WaterFeatures):
 def health(): return {"status": "online"}
 
 # Serve the frontend (put index.html in a /static folder)
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+#app.mount("/", StaticFiles(directory="static", html=True), name="static")
